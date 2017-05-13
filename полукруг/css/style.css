@@ -1,0 +1,22 @@
+
+.back {
+    width: 0px;
+    height: 0px;
+    background: red;
+    border-radius: 50px;
+    border-right: 50px solid #d8e0e8;
+    border-bottom: 50px solid #d8e0e8;
+    border-top: 51px solid #fff;
+    border-left: 51px solid #fff;
+    transform: rotate(45deg);
+}
+
+.front {
+    background: #fff;
+    width: 99px;
+    height: 99px;
+    border-radius: 50px;
+    position: relative;
+    right: 50px;
+    bottom: 50px;
+}

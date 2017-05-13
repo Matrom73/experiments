@@ -1,0 +1,48 @@
+.item_block {
+    display: block;
+    max-width: 1204px;
+    margin: auto;
+    padding: 0px;
+}
+
+.item_card {
+    display: inline-block;
+    margin: 5px 0.7%;
+    border-radius: 5px;
+    background: white;
+}
+
+.item_card img {
+    display: block;
+    width: 380px;
+    height: 204px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.item_card a {
+    display: block;
+    width: 380px;
+}
+
+.item_card em {
+    display: block;
+    font-size: 14px;
+    color: #333b42;                  
+    text-decoration: none;
+    font-style: normal;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+.item_card em::after {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-right: 1px solid #28c8c6;
+    border-bottom: 1px solid #28c8c6;
+    position: relative;
+    right: -50px;
+    transform: rotate(-45deg);
+}
